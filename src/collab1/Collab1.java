@@ -19,6 +19,7 @@ public class Collab1 {
        double answer = compoundInterest(0.025, 10000, 365, 4, 0);
        DecimalFormat df = new DecimalFormat("$###,###.##");
        System.out.println(df.format(answer));
+       System.out.println("Michan forked this project.");
     }
     // i = interest | p = principle | c = compound | t = time(years) | a = amount/total
     public static double compoundInterest(double i, double p, double c, double t, double a) {
